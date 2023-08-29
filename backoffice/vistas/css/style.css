@@ -397,7 +397,11 @@ PUNTOS DE QUIEBRE
 	height:24px;
 	margin:1em;
 }
-/* Agrega margen a diseño widget */
+
+
+
+
+/* WIDGET DISEÑO */
 .container {
 	margin-left: 50px; 
 }
@@ -448,6 +452,54 @@ PUNTOS DE QUIEBRE
     flex-grow: 1;
 }
 
+
+/* Agrega estilos para los botones activos */
+.btn-color-selector.active {
+	border-color: var(--button-active-color); /* Cambia el color del borde */
+	color: var(--button-active-color); /* Cambia el color del texto */
+	background-color: var(--button-active-background); /* Cambia el color de fondo */
+  }
+  
+  /* Estilos personalizados para cada botón activo */
+  .btn-outline-dark.active {
+	--button-active-color: #fff; /* Cambia este color al que desees */
+	--button-active-background: #343a40; /* Cambia este color al que desees */
+  }
+  
+  .btn-outline-danger.active {
+	--button-active-color: #fff; /* Cambia este color al que desees */
+	--button-active-background: #dc3545; /* Cambia este color al que desees */
+  }
+  
+  .btn-outline-success.active {
+	--button-active-color: #fff; /* Cambia este color al que desees */
+	--button-active-background: #28a745; /* Cambia este color al que desees */
+  }
+  
+  .btn-outline-primary.active {
+	--button-active-color: #fff; /* Cambia este color al que desees */
+	--button-active-background: #1025e0; /* Cambia este color al que desees */
+  }
+
+
+  .custom-row {
+    margin-left: 20px; /* Puedes ajustar el valor según tus necesidades */
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* INFORMACIÓN DISEÑO*/
 
 .switch input {
 	opacity: 0;
@@ -501,3 +553,4 @@ Rounded sliders
 .slider.round:before {
 	border-radius: 50%;
 }
+
